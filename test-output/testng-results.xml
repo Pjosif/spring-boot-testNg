@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="159" started-at="2020-06-24T14:52:29Z" finished-at="2020-06-24T14:52:29Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="159" started-at="2020-06-24T14:52:29Z" finished-at="2020-06-24T14:52:29Z">
+      <class name="spring_boot_testng.testng_sping.TestNGTestsWithSpringBootIT">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:spring_boot_testng.testng_sping.TestNGTestsWithSpringBootIT@3fc79729]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="6" started-at="2020-06-24T16:52:29Z" finished-at="2020-06-24T16:52:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:spring_boot_testng.testng_sping.TestNGTestsWithSpringBootIT@3fc79729]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="147" started-at="2020-06-24T16:52:29Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2020-06-24T16:52:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:spring_boot_testng.testng_sping.TestNGTestsWithSpringBootIT@3fc79729]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2020-06-24T16:52:29Z" finished-at="2020-06-24T16:52:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void spring_boot_testng.testng_sping.TestNGTestsWithSpringBootIT.simpleTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="simpleTest()[pri:0, instance:spring_boot_testng.testng_sping.TestNGTestsWithSpringBootIT@3fc79729]" name="simpleTest" duration-ms="1" started-at="2020-06-24T16:52:29Z" finished-at="2020-06-24T16:52:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- simpleTest -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:spring_boot_testng.testng_sping.TestNGTestsWithSpringBootIT@3fc79729]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2020-06-24T16:52:29Z" finished-at="2020-06-24T16:52:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void spring_boot_testng.testng_sping.TestNGTestsWithSpringBootIT.simpleTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:spring_boot_testng.testng_sping.TestNGTestsWithSpringBootIT@3fc79729]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2020-06-24T16:52:29Z" finished-at="2020-06-24T16:52:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- spring_boot_testng.testng_sping.TestNGTestsWithSpringBootIT -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>
